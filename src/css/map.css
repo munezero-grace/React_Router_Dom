@@ -1,0 +1,38 @@
+body{
+    background-color:aquamarine
+}
+.container{
+    display: flex;
+    
+}
+.mappu{
+    margin-left: 10px;
+    margin-bottom: 10px;
+   background-color: bisque;
+   border-radius: 4px;
+   border: 2px solid black;
+   width: 20%;
+   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:" name"
+                      " age";
+  grid-template-rows: 60% 40%;
+    
+}
+span{
+    padding: 5px;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.name{
+   background-color:bisque;
+   grid-area: name;
+   border-bottom: 2px solid black;
+}
+.age{
+    background-color:bisque;
+    grid-area: age;
+ }
