@@ -1,7 +1,10 @@
+import {MdOutlineSearch , MdOutlineNotificationsNone} from 'react-icons/md'
 function Menu(){
     return(
         <div className="menu">
-<h1>This is Menu</h1>
+<div className='icons'><MdOutlineSearch/></div>
+<div className='icons'><MdOutlineNotificationsNone/></div>
+<div className='line'></div>
         </div>
     )
 }
